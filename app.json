@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#b2609a",
+    "navigationBarTitleText": "黄黄k的test1",
+    "navigationBarTextStyle":"red"
+  }
+}
