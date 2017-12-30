@@ -10,4 +10,10 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <view class='usermotto2'>
+    <text>{{msg}}</text>
+  </view>
+  <view class='button1'>
+     <button bindtap='clickMe'>plz change the world~</button>   
+  </view>
 </view>
