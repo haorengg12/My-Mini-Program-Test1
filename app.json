@@ -1,12 +1,43 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/test3/logs"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#b2609a",
-    "navigationBarTitleText": "黄黄k的test1",
-    "navigationBarTextStyle":"red"
+  "window": {
+    "navigationBarBackgroundColor": "#878bde",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "不过是个demo",
+    "backgroundColor": "#87b1de",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": "true",
+    "onReachBottonDistance": "50"
+  },
+  "tabBar": {
+    "selectedColor": "#56bd77",
+    "color": "#c1c1c1",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Index",
+        "iconPath": "icons/default/index.png",
+        "selectedIconPath": "icons/selected/index.png"
+      },
+      {
+        "pagePath": "pages/test3/logs",
+        "text": "Message",
+        "iconPath": "icons/default/message.png",
+        "selectedIconPath": "icons/selected/message.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": "3000",
+    "connetSocket": "3000",
+    "uploadFile": "3000",
+    "downloadFile": "3000"
   }
 }
